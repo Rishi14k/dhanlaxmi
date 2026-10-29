@@ -1,0 +1,19 @@
+{
+  "name": "dhanlaxmi-server",
+  "version": "1.0.0",
+  "description": "Backend API for Dhanlaxmi Group Real Estate portal (MERN)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@emailjs/nodejs": "^5.0.2",
+    "cors": "^2.8.5",
+    "dhanlaxmi-mern": "file:..",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  }
+}
