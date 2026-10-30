@@ -67,7 +67,7 @@ export default function EnquiryModal({ isOpen, onClose, initialType = 'General E
 
     try {
       // POST to backend API (or fallback if offline)
-      const response = await fetch('/api/enquiries', {
+      const response = await fetch('https://dhanlaxmi-853e.onrender.com/api/enquiries', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
